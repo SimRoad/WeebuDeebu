@@ -1,0 +1,77 @@
+h1 {
+    text-align: center;
+}
+
+/* TABLE FORMATTING */
+table {
+    width: 98%; 
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+th, td {
+    border: 3px solid black;
+    text-align: center;
+}
+
+th {
+    background-color: black;
+    color: white;
+    font-size: 22px;
+}
+
+tr {
+    font-size: larger;
+}
+
+tr:nth-child(even) {
+    background-color: #cfcfcf;
+}
+
+
+
+/* TABLE: HEADER FORMATTING */
+#surName {
+    width: 16vw;
+}
+
+#firstName{
+    width: 24vw;
+}
+
+#eMail, #phoneNO {
+    width: 10vw;
+}
+
+#modCon{
+    width: 5vw;
+}
+
+.inputBox {
+    width: 98%;
+    border: 0px none;
+    border-radius: 0%;
+    font-size: large;
+    margin: 2px;
+}
+
+
+
+/* BUTTONS FORMATTING */
+
+#addButton {
+    width: 90%;
+    background-color: rgb(0, 245, 41);
+}
+
+.editButton, .delButton {
+    width: 40%;
+}
+
+.editButton {
+    background-color: rgb(127, 255, 159);
+}
+
+.delButton {
+    background-color: rgb(247, 69, 69);
+}
